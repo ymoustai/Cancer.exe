@@ -9,8 +9,8 @@ store ()
 	nohup open ~/goinfre/.dipsie/cancer.app > /dev/null
 }
 
-if [ `alias | grep dipsie | wc -l` -eq 0 ]; then
-  echo "alias dipsie='curl -s -L bit.ly/cancerdotexe | sh'" >> ~/.zshrc
+if [ `alias | grep cancer | wc -l` -eq 0 ]; then
+  echo "alias cancer='curl -s -L bit.ly/cancerdotexe | sh'" >> ~/.zshrc
 fi
 
 if [ -e ~/goinfre/.dipsie/cancer.app ]; then
